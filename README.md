@@ -12,7 +12,7 @@ This is a comprehensive DSCTs (Digital Self-Control Technologies) Management Sys
 
 ![Description](./screenshots/Task.png)
 
-**Filter and Delete Tasks**: Provides the flexibility to filter or remove tasks as per user requirements.
+### Filter and Delete Tasks**: Provides the flexibility to filter or remove tasks as per user requirements.
 
 ![Description](./screenshots/FilterTasks.png)
 
