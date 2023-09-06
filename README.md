@@ -4,7 +4,7 @@ This is a comprehensive DSCTs (Digital Self-Control Technologies) Management Sys
 # System Features
 
 ## Task Management
-### Create Tasks**: Users can create tasks by inputting essential details such as task name, description, type, duration, due date, tags, and associated apps.
+### Create Tasks: Users can create tasks by inputting essential details such as task name, description, type, duration, due date, tags, and associated apps.
 <br>
 <br>
  ![Description](./screenshots/TaskCreation.png)
