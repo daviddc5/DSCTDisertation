@@ -1,22 +1,22 @@
-## About
+# About
 This is a comprehensive DSCTs (Digital Self-Control Technologies) Management System designed to empower users in achieving their goals effectively. The platform offers an integrated solution that marries research-backed strategies with real-world application. Features range from task management to social engagement and statistical analysis, all aimed to provide a personalized and adaptive user experience.
 
-## System Features
+# System Features
 
-### Task Management
+## Task Management
 - **Create Tasks**: Users can create tasks by inputting essential details such as task name, description, type, duration, due date, tags, and associated apps.
 - **Visualize Tasks**: Users have a visual overview of all their tasks for better organization.
 - **Edit and Delete Tasks**: Provides the flexibility to edit or remove tasks as per user requirements.
 
-### Social Interaction
+## Social Interaction
 - **Discussion Boards**: A dedicated space where users can discuss their goals and related topics.
 - **Tag-based Interactions**: Users can engage with each other based on shared tags and interests.
 
-### Notifications and Settings
+## Notifications and Settings
 - **Notification Management**: Allows setting notifications and reminders for non-essential apps to help users manage distractions.
 - **Personalized Settings**: Users can customize their tasks and experiences through various settings options.
 
-### Statistical Insights
+## Statistical Insights
 - **Progress Tracking**: Displays the number of hours spent on different tasks and goals.
 - **Goal-specific Statistics**: Provides insights into users' progress on specific goals.
 - **General Progress Statistics**: Summarizes users' accomplishments over different time frames.
