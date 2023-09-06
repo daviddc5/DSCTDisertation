@@ -5,6 +5,7 @@ This is a comprehensive DSCTs (Digital Self-Control Technologies) Management Sys
 
 ## Task Management
 - **Create Tasks**: Users can create tasks by inputting essential details such as task name, description, type, duration, due date, tags, and associated apps.
+  ![Description](./screenshots/your_image_name.png)
 - **Visualize Tasks**: Users have a visual overview of all their tasks for better organization.
 - **Edit and Delete Tasks**: Provides the flexibility to edit or remove tasks as per user requirements.
 
@@ -14,6 +15,8 @@ This is a comprehensive DSCTs (Digital Self-Control Technologies) Management Sys
 
 ## Notifications and Settings
 - **Notification Management**: Allows setting notifications and reminders for non-essential apps to help users manage distractions.
+  ![Description](./screenshots/TaskCreation.png)
+
 - **Personalized Settings**: Users can customize their tasks and experiences through various settings options.
 
 ## Statistical Insights
