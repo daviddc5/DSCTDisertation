@@ -19,7 +19,7 @@ function LoginPage() {
 
     // Firebase configuration settings.
     const firebaseConfig = {
-        apiKey: "AIzaSyA7NpZmqJ_3y2yxTnvi1vJv3PhUurCeN2U",
+        apiKey: process.env.API_KEY,
         authDomain: "dsctdisertation.firebaseapp.com",
         projectId: "dsctdisertation",
         storageBucket: "dsctdisertation.appspot.com",
