@@ -1,5 +1,6 @@
 # About 
 This is a comprehensive DSCTs (Digital Self-Control Technologies) Management System designed to empower users in achieving their goals effectively. The platform offers an integrated solution that marries research-backed strategies with real-world application. Features range from task management to social engagement and statistical analysis, all aimed to provide a personalized and adaptive user experience.
+I am currently working on the backend, a live version is hosted on netlify: https://boisterous-basbousa-d66359.netlify.app/
 
 # System Features
 
