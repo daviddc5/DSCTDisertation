@@ -1,7 +1,7 @@
 //LoginPage.js
 // Import necessary modules from react, firebase, and the FirebaseContext.
 import React, { useState, useContext } from 'react';
-import firebaseAuth from 'firebase-auth';
+import firebase from './firebase'; // <-- Import initialized firebase
 import FirebaseContext from './FirebaseContext'; 
 
 function LoginPage() {
@@ -10,29 +10,19 @@ function LoginPage() {
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
 
-  // Use the FirebaseContext to get the current user and the setCurrentUser function.
+  // Use the FirebaseContext to get the setCurrentUser function.
   const {setCurrentUser } = useContext(FirebaseContext);
 
   // Handle form submission.
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevent the default form submission behavior.
 
-    // Firebase configuration settings.
-    const firebaseConfig = {
-      apiKey: process.env.REACT_APP_API_KEY,
-        authDomain: "dsctdisertation.firebaseapp.com",
-        projectId: "dsctdisertation",
-        storageBucket: "dsctdisertation.appspot.com",
-        messagingSenderId: "646787657364",
-        appId: "1:646787657364:web:e7049c79bbad4e49458e81",
-        measurementId: "G-6C96L0B9P2"
-    };
-      
     try {
       // Attempt to authenticate the user with the provided email and password.
-      const rootRef = await firebaseAuth(firebaseConfig);
-      setCurrentUser(rootRef); // Update the context state with the authenticated user.
-      // If successful, user is redirected to a protected route or dashboard.
+      const userCredential = await firebase.auth().signInWithEmailAndPassword(email, password); // <-- Using the actual Firebase auth
+      const user = userCredential.user;
+      setCurrentUser(user);
+      // TODO: Redirect the user to a dashboard or another route after successful login.
     } catch (err) {
       setError(err.message); // If an error occurs during authentication, set the error state.
     }
